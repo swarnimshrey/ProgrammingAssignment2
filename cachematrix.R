@@ -37,7 +37,7 @@ set <- function( matrix ) {
     m <- solve(data) %*% data
 ## Set the inverse to the object
     x$setInverse(m)
-## Coming back the matrix
+## Coming back the matrix.
     m
 }
   
